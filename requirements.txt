@@ -1,0 +1,7 @@
+torch==1.6.0
+pytorch-lightning==1.0.8
+wandb==0.10.12
+numpy==1.19.1
+transformers==4.3.0
+scipy==1.5.0
+scikit-learn
