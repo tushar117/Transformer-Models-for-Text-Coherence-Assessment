@@ -35,12 +35,6 @@ level of the given document.
 
 ### Training and Evaluation manually
 
-First download the datasets:
-
-```
-python download_data.py
-```
-
 To train different transformer based architecture models:
 
 ```
