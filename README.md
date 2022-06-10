@@ -14,13 +14,9 @@ pip install -r requirements.txt
 
 ### Dataset
 
-Before training or evaluating model, download the dataset:
+Before training or evaluating model, download the dataset from [here](https://drive.google.com/file/d/1ySrFSIPcY5r19pGja6SQ7jCsUkYsoMLc/view?usp=sharing) and unzip within the project directory.
 
-```
-python download_data.py
-```
-
-which includes Grammarly Corpus of Discourse Coherence (GCDC), Wall Street Journal (WSJ) and Recognizing Textual Entailment (RTE) datasets
+It includes Grammarly Corpus of Discourse Coherence (GCDC), Wall Street Journal (WSJ) and Recognizing Textual Entailment (RTE) datasets
 
 Different discouse coherence tasks defined for the datasets mentioned above:
 
