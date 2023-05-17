@@ -233,7 +233,7 @@ for i in $(seq $START_INDEX $END_INDEX)
 do
     local_dataset_dir=$(echo "$DATASET_DIR-$i")
     #Download processed dataset
-    $PYTHON $MODEL_DIR/download_data.py --store_path $local_dataset_dir
+    # $PYTHON $MODEL_DIR/download_data.py --store_path $local_dataset_dir
     CUR_MODEL_NAME=$FULL_MODEL_NAME-$i
     # remove previously generated checkpoints
     if [ -e $CHECKPOINT_PATH/$CUR_MODEL_NAME ]; then
